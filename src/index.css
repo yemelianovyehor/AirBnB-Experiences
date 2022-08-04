@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  background-color: #E5E5E5;
+  font-family: Poppins, sans-serif;
+  color: #222222;
+}
+
+.container{
+  width:600px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+
+
+.flex{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+.scroll{
+    justify-content: space-between;
+    padding-left: 25px;
+    gap:20px;
+    overflow: scroll;
+}

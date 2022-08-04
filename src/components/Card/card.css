@@ -1,0 +1,46 @@
+.card{
+    width:200px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.card-photo{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.star{height: 1em;}
+
+/* .review-counter{} */
+.review-counter::before{content: "(";}
+.review-counter::after{content: ")";}
+
+/* .region{} */
+.region::before{content: "• ";}
+
+.card-description{
+    font-size: smaller;
+    font-weight: 300;
+
+}
+
+/* .status{} */
+
+
+.grey{
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
